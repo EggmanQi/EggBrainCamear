@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		548A7D292AE1641700773C30 /* EggBrainCamearApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A7D282AE1641700773C30 /* EggBrainCamearApp.swift */; };
+		548A7D2B2AE1641700773C30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A7D2A2AE1641700773C30 /* ContentView.swift */; };
+		548A7D2D2AE1641700773C30 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A7D2C2AE1641700773C30 /* Item.swift */; };
+		548A7D2F2AE1641900773C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548A7D2E2AE1641900773C30 /* Assets.xcassets */; };
+		548A7D332AE1641900773C30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548A7D322AE1641900773C30 /* Preview Assets.xcassets */; };
+		548A7D3D2AE1641900773C30 /* EggBrainCamearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A7D3C2AE1641900773C30 /* EggBrainCamearTests.swift */; };
+		548A7D472AE1641900773C30 /* EggBrainCamearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A7D462AE1641900773C30 /* EggBrainCamearUITests.swift */; };
+		548A7D492AE1641900773C30 /* EggBrainCamearUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A7D482AE1641900773C30 /* EggBrainCamearUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		548A7D392AE1641900773C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 548A7D1D2AE1641700773C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548A7D242AE1641700773C30;
+			remoteInfo = EggBrainCamear;
+		};
+		548A7D432AE1641900773C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 548A7D1D2AE1641700773C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548A7D242AE1641700773C30;
+			remoteInfo = EggBrainCamear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		548A7D252AE1641700773C30 /* EggBrainCamear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggBrainCamear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		548A7D282AE1641700773C30 /* EggBrainCamearApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggBrainCamearApp.swift; sourceTree = "<group>"; };
+		548A7D2A2AE1641700773C30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		548A7D2C2AE1641700773C30 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		548A7D2E2AE1641900773C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		548A7D302AE1641900773C30 /* EggBrainCamear.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggBrainCamear.entitlements; sourceTree = "<group>"; };
+		548A7D322AE1641900773C30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		548A7D382AE1641900773C30 /* EggBrainCamearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggBrainCamearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		548A7D3C2AE1641900773C30 /* EggBrainCamearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggBrainCamearTests.swift; sourceTree = "<group>"; };
+		548A7D422AE1641900773C30 /* EggBrainCamearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggBrainCamearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		548A7D462AE1641900773C30 /* EggBrainCamearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggBrainCamearUITests.swift; sourceTree = "<group>"; };
+		548A7D482AE1641900773C30 /* EggBrainCamearUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggBrainCamearUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		548A7D222AE1641700773C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548A7D352AE1641900773C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548A7D3F2AE1641900773C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		548A7D1C2AE1641700773C30 = {
+			isa = PBXGroup;
+			children = (
+				548A7D272AE1641700773C30 /* EggBrainCamear */,
+				548A7D3B2AE1641900773C30 /* EggBrainCamearTests */,
+				548A7D452AE1641900773C30 /* EggBrainCamearUITests */,
+				548A7D262AE1641700773C30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		548A7D262AE1641700773C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				548A7D252AE1641700773C30 /* EggBrainCamear.app */,
+				548A7D382AE1641900773C30 /* EggBrainCamearTests.xctest */,
+				548A7D422AE1641900773C30 /* EggBrainCamearUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		548A7D272AE1641700773C30 /* EggBrainCamear */ = {
+			isa = PBXGroup;
+			children = (
+				548A7D282AE1641700773C30 /* EggBrainCamearApp.swift */,
+				548A7D2A2AE1641700773C30 /* ContentView.swift */,
+				548A7D2C2AE1641700773C30 /* Item.swift */,
+				548A7D2E2AE1641900773C30 /* Assets.xcassets */,
+				548A7D302AE1641900773C30 /* EggBrainCamear.entitlements */,
+				548A7D312AE1641900773C30 /* Preview Content */,
+			);
+			path = EggBrainCamear;
+			sourceTree = "<group>";
+		};
+		548A7D312AE1641900773C30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				548A7D322AE1641900773C30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		548A7D3B2AE1641900773C30 /* EggBrainCamearTests */ = {
+			isa = PBXGroup;
+			children = (
+				548A7D3C2AE1641900773C30 /* EggBrainCamearTests.swift */,
+			);
+			path = EggBrainCamearTests;
+			sourceTree = "<group>";
+		};
+		548A7D452AE1641900773C30 /* EggBrainCamearUITests */ = {
+			isa = PBXGroup;
+			children = (
+				548A7D462AE1641900773C30 /* EggBrainCamearUITests.swift */,
+				548A7D482AE1641900773C30 /* EggBrainCamearUITestsLaunchTests.swift */,
+			);
+			path = EggBrainCamearUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		548A7D242AE1641700773C30 /* EggBrainCamear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548A7D4C2AE1641900773C30 /* Build configuration list for PBXNativeTarget "EggBrainCamear" */;
+			buildPhases = (
+				548A7D212AE1641700773C30 /* Sources */,
+				548A7D222AE1641700773C30 /* Frameworks */,
+				548A7D232AE1641700773C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggBrainCamear;
+			productName = EggBrainCamear;
+			productReference = 548A7D252AE1641700773C30 /* EggBrainCamear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		548A7D372AE1641900773C30 /* EggBrainCamearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548A7D4F2AE1641900773C30 /* Build configuration list for PBXNativeTarget "EggBrainCamearTests" */;
+			buildPhases = (
+				548A7D342AE1641900773C30 /* Sources */,
+				548A7D352AE1641900773C30 /* Frameworks */,
+				548A7D362AE1641900773C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				548A7D3A2AE1641900773C30 /* PBXTargetDependency */,
+			);
+			name = EggBrainCamearTests;
+			productName = EggBrainCamearTests;
+			productReference = 548A7D382AE1641900773C30 /* EggBrainCamearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		548A7D412AE1641900773C30 /* EggBrainCamearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548A7D522AE1641900773C30 /* Build configuration list for PBXNativeTarget "EggBrainCamearUITests" */;
+			buildPhases = (
+				548A7D3E2AE1641900773C30 /* Sources */,
+				548A7D3F2AE1641900773C30 /* Frameworks */,
+				548A7D402AE1641900773C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				548A7D442AE1641900773C30 /* PBXTargetDependency */,
+			);
+			name = EggBrainCamearUITests;
+			productName = EggBrainCamearUITests;
+			productReference = 548A7D422AE1641900773C30 /* EggBrainCamearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		548A7D1D2AE1641700773C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					548A7D242AE1641700773C30 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					548A7D372AE1641900773C30 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 548A7D242AE1641700773C30;
+					};
+					548A7D412AE1641900773C30 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 548A7D242AE1641700773C30;
+					};
+				};
+			};
+			buildConfigurationList = 548A7D202AE1641700773C30 /* Build configuration list for PBXProject "EggBrainCamear" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 548A7D1C2AE1641700773C30;
+			productRefGroup = 548A7D262AE1641700773C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				548A7D242AE1641700773C30 /* EggBrainCamear */,
+				548A7D372AE1641900773C30 /* EggBrainCamearTests */,
+				548A7D412AE1641900773C30 /* EggBrainCamearUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		548A7D232AE1641700773C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548A7D332AE1641900773C30 /* Preview Assets.xcassets in Resources */,
+				548A7D2F2AE1641900773C30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548A7D362AE1641900773C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548A7D402AE1641900773C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		548A7D212AE1641700773C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548A7D2B2AE1641700773C30 /* ContentView.swift in Sources */,
+				548A7D2D2AE1641700773C30 /* Item.swift in Sources */,
+				548A7D292AE1641700773C30 /* EggBrainCamearApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548A7D342AE1641900773C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548A7D3D2AE1641900773C30 /* EggBrainCamearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548A7D3E2AE1641900773C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548A7D492AE1641900773C30 /* EggBrainCamearUITestsLaunchTests.swift in Sources */,
+				548A7D472AE1641900773C30 /* EggBrainCamearUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		548A7D3A2AE1641900773C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 548A7D242AE1641700773C30 /* EggBrainCamear */;
+			targetProxy = 548A7D392AE1641900773C30 /* PBXContainerItemProxy */;
+		};
+		548A7D442AE1641900773C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 548A7D242AE1641700773C30 /* EggBrainCamear */;
+			targetProxy = 548A7D432AE1641900773C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		548A7D4A2AE1641900773C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		548A7D4B2AE1641900773C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		548A7D4D2AE1641900773C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EggBrainCamear/EggBrainCamear.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EggBrainCamear/Preview Content\"";
+				DEVELOPMENT_TEAM = EKM7RAGNA6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggbrainStudio.EggBrainCamear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		548A7D4E2AE1641900773C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EggBrainCamear/EggBrainCamear.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EggBrainCamear/Preview Content\"";
+				DEVELOPMENT_TEAM = EKM7RAGNA6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggbrainStudio.EggBrainCamear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		548A7D502AE1641900773C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EKM7RAGNA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggbrainStudio.EggBrainCamearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggBrainCamear.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EggBrainCamear";
+			};
+			name = Debug;
+		};
+		548A7D512AE1641900773C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EKM7RAGNA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggbrainStudio.EggBrainCamearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggBrainCamear.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EggBrainCamear";
+			};
+			name = Release;
+		};
+		548A7D532AE1641900773C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EKM7RAGNA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggbrainStudio.EggBrainCamearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EggBrainCamear;
+			};
+			name = Debug;
+		};
+		548A7D542AE1641900773C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EKM7RAGNA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggbrainStudio.EggBrainCamearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EggBrainCamear;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		548A7D202AE1641700773C30 /* Build configuration list for PBXProject "EggBrainCamear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548A7D4A2AE1641900773C30 /* Debug */,
+				548A7D4B2AE1641900773C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548A7D4C2AE1641900773C30 /* Build configuration list for PBXNativeTarget "EggBrainCamear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548A7D4D2AE1641900773C30 /* Debug */,
+				548A7D4E2AE1641900773C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548A7D4F2AE1641900773C30 /* Build configuration list for PBXNativeTarget "EggBrainCamearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548A7D502AE1641900773C30 /* Debug */,
+				548A7D512AE1641900773C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548A7D522AE1641900773C30 /* Build configuration list for PBXNativeTarget "EggBrainCamearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548A7D532AE1641900773C30 /* Debug */,
+				548A7D542AE1641900773C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 548A7D1D2AE1641700773C30 /* Project object */;
+}
